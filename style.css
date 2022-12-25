@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background-image: url(https://www.pressball.by/images/stories/2019/07/20190731170204.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+header{
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    position: relative;
+            left: 20px;
+            top: 25px;
+}
+.logo>h2{
+    margin: 50px 0;
+    font-family: 'Kenia', cursive;
+    font-size: 35px;
+    position: relative;
+            left: 20px;
+            bottom: 20px;
+}
+nav{
+    margin-right: 100px;
+}
+header a{
+    text-decoration: none;
+    color: #E89141;
+    margin-left: 30px;
+    display: inline-block;
+    background-color: rgba(0,0,255,0.5);
+    padding: 10px 33px;
+    border-radius: 15px;
+}
+.one{
+    height: 400px;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text>h1{
+    color: #062D48;
+    mix-blend-mode: overlay;
+    font-size: 100px;
+    margin-left: 110px;
+}
+.text>p{
+    font-size: 30px;
+    color: #E89141;
+    margin: 0 0 50px 180px;
+}
+.two{
+    background-color: #E89141;
+    height: 500px;
+    border-radius: 50% 20% / 10% 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.two>h1{
+    font-size: 30px;
+    margin: 50px 0;
+}
+iframe{
+    margin-left: 30px;
+}
+
+.three{
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.three>h1{
+    font-size: 50px;
+}
+
+footer{
+    height: 100px;
+    background-color: #062D48;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+ h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 50px;
+ }
+ .kontakt{
+    margin-right: 50px;
+ }
+ .ceti{
+    border-radius: 15px;
+ }
